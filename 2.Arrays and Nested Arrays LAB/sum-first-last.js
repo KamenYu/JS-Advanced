@@ -1,0 +1,7 @@
+function solve(array){
+    return +array[0] + +array[array.length -1];
+}
+
+console.log(solve(['20', '30', '40']));
+console.log(solve(['15', '10']));
+console.log(solve(['20', '30', '40', '45', '80']));
